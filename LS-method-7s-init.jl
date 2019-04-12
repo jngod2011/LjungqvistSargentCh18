@@ -32,7 +32,7 @@ end
 function U(ξ::Float64,R::Float64)
     if ξ <= 0.
         -9e10
-        else ((1/ξ^(R-1.0))/(1.0 - R))
+        else ((1/ξ^(R-1.0)-1)/(1.0 - R))
     end
 end
 
